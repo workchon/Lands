@@ -1,0 +1,57 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands.Android", "Lands.Android\Lands.Android.csproj", "{FE09918C-DA19-497C-80AA-5345C842BBD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands.iOS", "Lands.iOS\Lands.iOS.csproj", "{1FC4E317-0384-4984-9245-D6178FD31943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands", "Lands\Lands.csproj", "{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{FE09918C-DA19-497C-80AA-5345C842BBD3}.Release|iPhone.Build.0 = Release|Any CPU
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Debug|iPhone.Build.0 = Debug|iPhone
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Release|iPhone.ActiveCfg = Release|iPhone
+		{1FC4E317-0384-4984-9245-D6178FD31943}.Release|iPhone.Build.0 = Release|iPhone
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D795A6EA-2B44-4BCC-A554-6A03C2DDF740}.Release|iPhone.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
