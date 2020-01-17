@@ -1,10 +1,7 @@
-﻿using System;
-namespace Lands.ViewModels
+﻿namespace Lands.ViewModels
 {
     public class MainViewModel
     {
-        public MainViewModel()
-        {
-        }
+        
     }
 }

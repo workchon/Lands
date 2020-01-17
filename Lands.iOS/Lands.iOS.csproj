@@ -132,4 +132,10 @@
       <Name>Lands</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Logo.png" />
+    <BundleResource Include="Resources\twiiter.png" />
+    <BundleResource Include="Resources\instagram.png" />
+    <BundleResource Include="Resources\facebook.png" />
+  </ItemGroup>
 </Project>
