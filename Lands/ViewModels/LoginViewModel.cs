@@ -3,6 +3,7 @@
     using System.Windows.Input;
     using GalaSoft.MvvmLight.Command;
     using Xamarin.Forms;
+    using Views;
 
     public class LoginViewModel : BaseViewModel
     {
@@ -10,14 +11,18 @@
         #region Attributes
 
         private string password;
-
+        private string email;
         private bool isRunning;
         private bool isEnabled;
         #endregion
 
 
         #region Properties
-        public string Email { get; set; }
+        public string Email
+        {
+            get { return this.email; }
+            set { SetValue(ref this.email, value); }
+        }
 
         public string Password
         {
@@ -45,7 +50,12 @@
         public LoginViewModel()
         {
             this.IsRemembered = true;
-            this.isEnabled = true;
+            this.IsEnabled = true;
+
+            this.Email = "p@hotmail.com";
+            this.password = "1234";
+
+            //http://restcountries.eu/rest/v2/all
         }
         #endregion
 
@@ -78,20 +88,25 @@
             this.IsEnabled = false;
 
 
-            if(this.Email != "p@hotmail.com" || this.password != "1234")
+            if(this.Email != "p@hotmail.com" || this.Password != "1234")
             {
                 this.IsRunning = false;
                 this.IsEnabled = true;
                 await Application.Current.MainPage.DisplayAlert("Error", "Email or Password incorrect", "Accept");
-                this.password = string.Empty;
+                this.Password = string.Empty;
                 return;
             }
 
-            await Application.Current.MainPage.DisplayAlert(
-                "OK",
-                "Fuck yeahhh",
-                "Accept"
-            );
+            this.IsRunning = false;
+            this.IsEnabled = true;
+
+
+            this.Email = string.Empty;
+            this.Password = string.Empty;
+
+            MainViewModel.GetInstance().Lands = new LandsViewModels();
+
+            await Application.Current.MainPage.Navigation.PushAsync(new LandsPage());
 
         }
         #endregion
